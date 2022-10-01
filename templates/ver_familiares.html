@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Listado de familiares</title>
 </head>
 <body>
     <h1 style="text-align: center; text-decoration: underline;">Listado de familiares</h1>
     {% for familiar in familiares %}
         <h2>{{familiar.nombre}} {{familiar.apellido}}</h2>
-            <ol>
+            <ol style="margin: 1.5px; border: 1px solid black; margin: 10px; width:400px; background-color: beige;padding: 20px;">
                 <li>Edad: {{familiar.edad}}</li>
                 <li>Fecha de nacimiento: {{familiar.fecha_nacimiento}}</li>
                 <li>Color favorito: {{familiar.fav_color}}</li>
