@@ -9,3 +9,4 @@ class Familiar(models.Model):
     edad = models.IntegerField()
     fecha_nacimiento = models.DateTimeField()
     fav_animal = models.CharField(max_length = 30)
+    parentesco = models.CharField(max_length = 30)

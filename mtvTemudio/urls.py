@@ -18,7 +18,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('crear-familiar/', views.crear_familiar),
+    path('crear-familiares/', views.crear_familiar),
     path('ver-familiares/', views.ver_familiares),
     path('admin/', admin.site.urls),
 ]
